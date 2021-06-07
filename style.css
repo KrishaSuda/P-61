@@ -1,0 +1,118 @@
+body {
+    text-align: center;
+    font-family: 'Signika Negative', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#Welcome {
+    position: absolute;
+    height: 400px;
+    color: white;
+    left: 0px;
+    right: 0px;
+    top: 20px;
+    bottom: 0px;
+    background: linear-gradient(#4cc9f0, #03045e 100%);
+    width: 100%;
+    z-index: 5;
+}
+
+.menu {
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #f3f3f3;
+    z-index: 9;
+}
+
+.Alink {
+    margin-top: 10px;
+    display: inline;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Alink:hover {
+    color: #023e8a;
+}
+
+.GamingPoster {
+    width: 400;
+    height: 200;
+    padding-top: 40.5px;
+}
+
+
+h1 {
+    color: #edf6f9
+}
+
+#Bio {
+    padding-top: 425px;
+    text-align: center;
+}
+
+#About {
+    color: #023e8a;
+}
+
+.line {
+    background-color: #023e8a;
+    width: 80px;
+    height: 4px;
+    margin: 8px auto;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    color: #00b4d8;
+    text-shadow: 2px 2px #023e8a
+}
+
+#MP {
+    transition: transform .2s;
+}
+
+#MP:hover {
+    transform: scale(0.9);
+}
+
+.GB:link,
+.GB:visited {
+    background-color: #0077b6;
+    color: white;
+    padding: 7.5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.GB:hover,
+.GB:active {
+    background-color: #023e8a;
+}
+
+.Resize {
+    width: 600px;
+    transition: transform .2s;
+}
+
+.Resize:hover {
+    transform: scale(0.9);
+}
+
+.Gmail h3 {
+    display: inline;
+    text-decoration: none;
+}
